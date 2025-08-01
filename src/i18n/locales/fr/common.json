@@ -97,6 +97,16 @@
 			"error_deleting_message": "Erreur lors de la suppression du message : {{error}}",
 			"error_editing_message": "Erreur lors de la modification du message : {{error}}"
 		},
+		"geminiCli": {
+			"oauthLoadFailed": "Échec du chargement des identifiants OAuth. Veuillez vous authentifier d'abord : {{error}}",
+			"tokenRefreshFailed": "Échec du renouvellement du token OAuth : {{error}}",
+			"onboardingTimeout": "L'opération d'intégration a expiré après 60 secondes. Veuillez réessayer plus tard.",
+			"projectDiscoveryFailed": "Impossible de découvrir l'ID du projet. Assurez-vous d'être authentifié avec 'gemini auth'.",
+			"rateLimitExceeded": "Limite de débit dépassée. Les limites du niveau gratuit ont été atteintes.",
+			"badRequest": "Requête incorrecte : {{details}}",
+			"apiError": "Erreur API Gemini CLI : {{error}}",
+			"completionError": "Erreur de complétion Gemini CLI : {{error}}"
+		},
 		"gemini": {
 			"generate_stream": "Erreur du flux de contexte de génération Gemini : {{error}}",
 			"generate_complete_prompt": "Erreur d'achèvement de Gemini : {{error}}",
